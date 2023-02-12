@@ -45,7 +45,6 @@ body {
     position: fixed;
     width: 100vw;
     height: fit-content;
-    filter: opacity(75%);
   }
 
   .david{
