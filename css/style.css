@@ -39,3 +39,15 @@ body {
     padding: 20px;
     text-align: left;
   }
+
+  .bg-ipw{
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: fit-content;
+  }
+
+  .david{
+    filter: opacity(95%);
+    border-radius: 20px;
+  }
