@@ -30,7 +30,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
   }
   
   section {
@@ -50,4 +49,61 @@ body {
   .david{
     filter: opacity(95%);
     border-radius: 20px;
+  }
+
+  .martin{
+    background-color: rgb(38, 52, 112);
+  }
+
+  .bg-img{
+    position: fixed;
+    width: 100vw;
+    height: fit-content;
+  }
+
+  .retour{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    -webkit-transform: translate(-50%, -50%);
+	  background: #B9DFFF;
+	  color: #fff;
+	  border: 1px solid #eee;
+	  border-radius: 20px;
+	  box-shadow: 5px 5px 5px #eee;
+	  text-shadow: none;
+
+  }
+
+  .retour:hover{
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+  }
+
+  .conteneurWeb2{
+    background-color: #252d33;
+    opacity: 80%;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .conteneurProg3{
+    background-color: #252d33;
+    opacity: 80%;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .UXUI{
+    background-color: #252d33;
+    opacity: 80%;
+    color: #fff;
+    padding: 10px;
   }
